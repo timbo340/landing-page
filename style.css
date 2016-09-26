@@ -1,0 +1,125 @@
+
+html,body {
+  height: 100%;
+}
+
+body {
+    background-color: lightblue;
+    margin: 0;
+    font-family: arial,helvetica,sans-serif;
+    color: white;
+
+}
+
+#hdr {
+    margin: 0;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    float: left;
+    /*height: 100%;*/
+}
+
+.navbar ul {
+    margin: 0;
+    float: right;
+    display: block;
+    padding: 16px 0 0 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+}
+
+/*hero section*/
+
+#hero {
+  background: url("img/fish1.jpg") no-repeat center 0;
+  background-size: cover;
+  height: 100%;
+  /*min-height: 650px;*/
+  clear: both;
+}
+#hero .blurb {
+
+  max-width: 770px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+}
+#hero h1 {
+  max-width: 470px;
+  margin: 0 auto;
+}
+#hero p {
+  padding: 0 60px;
+  margin: 30px 0;
+}
+.shadow {
+  background: rgba(0, 0, 0, 0.6);
+  /*min-height: 650px;*/
+  height: 100%;
+}
+h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+
+}
+button {
+  background: orange;
+  padding: 19px 57px;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: none;
+  border-radius: 3px;
+}
+
+/*content*/
+#fish {
+  max-width: 700px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -150px;
+}
+#fish2 {
+  max-width: 200px;
+  position: absolute;
+  top: 75px;
+  left: 480px;
+  margin-top: -150px;
+}
+
+.content {
+  background: white;
+  position: relative;
+  padding: 60px;
+  float: left;
+  /*margin-top: -100px;*/
+
+
+}
+.content p {
+  color:black;
+  font-weight: bold;
+}
